@@ -58,5 +58,11 @@ namespace Operaciones_Básicas
 			Double Div = Double.Parse(textBox1.Text) / Double.Parse(textBox2.Text);
 			label6.Text=Convert.ToString(Div);			
 		}
+		
+		void Button5Click(object sender, EventArgs e)
+		{
+			Double Mod = Double.Parse(textBox1.Text) % Double.Parse(textBox2.Text);
+			label6.Text=Convert.ToString(Mod);			
+		}
 	}
 }
