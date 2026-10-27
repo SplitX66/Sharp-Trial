@@ -43,5 +43,21 @@ namespace Operaciones_Básicas
 		{
 			
 		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			textBox1.Text="";			
+			textBox2.Text="";
+			textBox3.Text="";
+			label6.Text="";
+			label7.Text="";
+		}
+		
+		void Button3Click(object sender, EventArgs e)
+		{
+			MainForm bck = new MainForm();
+			bck.Show();
+			this.Hide();
+		}
 	}
 }
