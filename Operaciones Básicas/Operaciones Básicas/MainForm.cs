@@ -64,5 +64,17 @@ namespace Operaciones_Básicas
 			Double Mod = Double.Parse(textBox1.Text) % Double.Parse(textBox2.Text);
 			label6.Text=Convert.ToString(Mod);			
 		}
+		
+		void Button6Click(object sender, EventArgs e)
+		{
+			Form1 f = new Form1();
+			f.Show();
+			this.Hide();
+		}
+		
+		void MainFormLoad(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }
